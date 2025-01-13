@@ -11,8 +11,8 @@ export const NavBar = async () => {
         <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all">
             <WidthWrapper>
                 <div className="flex h-16 items-center justify-between">
-                    <Link href="/" className="flex z-40 font-semibold">
-                        <span className="text-brand-main">Root</span>
+                    <Link href="/" className="flex flex-col z-40 font-semibold font-written">
+                        Root<span className="text-brand-main">The Mental Health Platform</span>
                     </Link>
                     <div className="h-full flex items-center space-x-4">
                         {user ? (
