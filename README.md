@@ -1,3 +1,6 @@
+Welcome to Root | The Mental Health Platform  Saas. 
+A project to build a one stop platform for all the mental health needs you have. 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
