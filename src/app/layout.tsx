@@ -5,7 +5,7 @@ import { Providers } from "@/components/providers";
 
 
 export const metadata: Metadata = {
-  title: "Root | The Mental Health Platform", 
+  title: "Root | The Mental Health Platform",
   description: "Helping you grow from the ground up. We are here to help keep you rooted.",
 };
 
@@ -15,14 +15,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-   <ClerkProvider>
-    <html lang="en">
-    <body className=" min-h-[calc(100vh-1px)] flex flex-col font-sans bg-brand-50 text-brand-950 antialiased">
-        <main className="relative flex-1 flex flex-col">
-        <Providers>{children}</Providers>
-        </main>
-      </body>
-    </html>
-   </ClerkProvider>
+    <ClerkProvider>
+      <html lang="en">
+        <head>
+        <link rel="icon" href="/favicon.png" sizes="any" />
+        </head>
+        <body className=" min-h-[calc(100vh-1px)] flex flex-col font-sans bg-brand-50 text-brand-950 antialiased">
+          <main className="relative flex-1 flex flex-col">
+            <Providers>{children}</Providers>
+          </main>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
