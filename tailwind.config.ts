@@ -13,6 +13,9 @@ export default {
 				"written": "Playfair Display"
 			},
 			colors: {
+				lightText: "#E5E7EB",
+				spanText: "#3498db",
+				darkText: "#1F2937",
 				brand: {
 					main: '#D2691E',
 					compliment: '#9999cc',
