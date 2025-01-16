@@ -2,9 +2,9 @@
 
 import { Heading } from "@/components/heading"
 import { WidthWrapper } from "@/components/wrapper"
-import { ArrowRightIcon, Check } from "lucide-react"
+import { ArrowDownCircle, ArrowRightCircle, ArrowRightIcon, Check } from "lucide-react"
 import { ShinyButton } from "@/components/shiny-button"
-import { Card } from "@/components/ui/card"
+import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 import Image from "next/image"
 import { EmblaCarousel } from "@/components/carousel"
 
@@ -159,6 +159,43 @@ const Page = () => {
               </span>
             </Heading>
 
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-4 w-full">
+              <Card className="md:w-1/3 sm:w-full flex flex-col justify-between items-center text-center p-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4">
+                  <p className="text-6xl font-bold text-brand-main">1</p>
+                  <div className="flex flex-col items-center justify-center gap-4 p-4">
+                    <CardTitle className="text-2xl">Create Your Account</CardTitle>
+                    <CardDescription>Sign up for a free account and start using our platform right away.</CardDescription>
+                  </div>
+                </div>
+              </Card>
+
+              <ArrowRightCircle className="hidden lg:block dark:text-spanText" />
+              <ArrowDownCircle className="lg:hidden block dark:text-spanText" />
+
+              <Card className="md:w-1/3 sm:w-full flex flex-col justify-between items-center text-center p-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4">
+                  <p className="text-6xl font-bold text-brand-main">2</p>
+                  <div className="flex flex-col items-center justify-center gap-4 p-4">
+                    <CardTitle className="text-2xl">Update Your Resources</CardTitle>
+                    <CardDescription>Add Your Resources to the complimentary ones or download what you need.</CardDescription>
+                  </div>
+                </div>
+              </Card>
+
+              <ArrowRightCircle className="hidden lg:block dark:text-spanText" />
+              <ArrowDownCircle className="lg:hidden block dark:text-spanText" />
+
+              <Card className="md:w-1/3 sm:w-full flex flex-col justify-between items-center text-center p-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4">
+                  <p className="text-6xl font-bold text-brand-main">3</p>
+                  <div className="flex flex-col items-center justify-center gap-4 p-4">
+                    <CardTitle className="text-2xl">Take Your Time To Heal</CardTitle>
+                    <CardDescription>Healing takes time. Grow your roots and find stability, one step at a time.</CardDescription>
+                  </div>
+                </div>
+              </Card>
+            </div>
 
 
           </div>
