@@ -1,5 +1,15 @@
-Welcome to Root | The Mental Health Platform  Saas. 
-A project to build a one stop platform for all the mental health needs you have. 
+# Welcome to Root | The Mental Health Platform  SaaS. 
+
+*A project to build a one stop platform for all the mental health needs you have.*
+
+Root is a mental health platform designed to help users manage their well-being by providing tools for mood tracking, goal setting, and access to essential mental health resources. Whether you're looking to track your mood over time, set mental health goals, or connect to helplines and self-care tools, Root is here to support you on your journey.
+
+## Key Features:
+ - Mood Tracking: Track and log your daily emotions and moods to identify patterns and gain insights into your mental health over time.
+ - Goal Setting: Set personal mental health goals (e.g., improving sleep, practicing mindfulness) and track your progress.
+ - Helplines & Resources: Easily access local and international mental health helplines, including crisis support and professional guidance.
+ - Self-Care Tools: Access a collection of self-care practices and recommendations tailored to your needs.
+ - Privacy-Focused: Your data is kept private and secure, ensuring your mental health journey is confidential.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
