@@ -129,24 +129,6 @@ const Page = () => {
         </WidthWrapper>
       </section>
 
-      {/* Reviews */}
-      <section className="relative py-24 sm:py-32 align-middle justify-center items-center min-w-full mx-auto">
-        <WidthWrapper>
-          <section>
-            <div className="relative mx-auto text-center flex flex-col items-center align-middle justify-center gap-10">
-              <Heading>
-                <span className="dark:text-lightText">But don&apos;t take our word for it</span>
-                <br />
-                <span className="rrelative bg-gradient-to-r from-brand-main to-brand-compliment text-transparent bg-clip-text">
-                  Here&apos;s what our customers say
-                </span>
-              </Heading>
-              <EmblaCarousel />
-            </div>
-          </section>
-        </WidthWrapper>
-      </section>
-
       {/* How it works */}
       <section className="relative py-24 sm:py-32 align-middle justify-center items-center min-w-full mx-auto ">
         <WidthWrapper>
@@ -196,11 +178,32 @@ const Page = () => {
                 </div>
               </Card>
             </div>
-
-
+            <div className="w-full max-w-80">
+              <ShinyButton href="/sign-up" className="relative z-10 h-14 w-full text-base shadow-lg transition-shadow duration-300 hover:shadow-xl"> Start for free today</ShinyButton>
+            </div>
           </div>
         </WidthWrapper>
       </section>
+
+      {/* Reviews */}
+      <section className="relative py-24 sm:py-32 align-middle justify-center items-center min-w-full mx-auto">
+        <WidthWrapper>
+          <section>
+            <div className="relative mx-auto text-center flex flex-col items-center align-middle justify-center gap-10">
+              <Heading>
+                <span className="dark:text-lightText">But don&apos;t take our word for it</span>
+                <br />
+                <span className="rrelative bg-gradient-to-r from-brand-main to-brand-compliment text-transparent bg-clip-text">
+                  Here&apos;s what our customers say
+                </span>
+              </Heading>
+              <EmblaCarousel />
+            </div>
+          </section>
+        </WidthWrapper>
+      </section>
+
+
 
 
       {/* Helpline Section */}
