@@ -32,7 +32,7 @@ export const NavBar = async () => {
                                         </Button>
                                     </SignOutButton>
     
-                                    <Link href="/" className={buttonVariants({
+                                    <Link href="/dashboard" className={buttonVariants({
                                         size: "sm",
                                         className: "flex items-center gap-1"
                                     })}>

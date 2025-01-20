@@ -3,6 +3,8 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Providers } from "@/components/providers";
 import { ThemeProvider } from "@/components/theme-provider";
+import { NavBar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 
 
 export const metadata: Metadata = {
@@ -22,6 +24,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" sizes="any" />
         </head>
         <body className=" min-h-[calc(100vh-1px)] flex flex-col font-sans bg-brand-50 text-brand-950 antialiased">
+        <NavBar />
           <main className="relative flex-1 flex flex-col">
             <ThemeProvider
              attribute="class"
@@ -32,6 +35,7 @@ export default function RootLayout({
             <Providers>{children}</Providers>
             </ThemeProvider>
           </main>
+          <Footer />
         </body>
       </html>
     </ClerkProvider>
